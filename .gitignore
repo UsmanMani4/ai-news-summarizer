@@ -1,0 +1,26 @@
+# Virtual environments
+nws/
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (we will add later)
+checkpoints/
+*.pt
+*.bin
+
+# Large data
+data/*.json
+data/*.csv
