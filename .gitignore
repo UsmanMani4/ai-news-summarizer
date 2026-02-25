@@ -27,3 +27,4 @@ checkpoints/
 # Large data
 data/*.json
 data/*.csv
+data/*.ipynb

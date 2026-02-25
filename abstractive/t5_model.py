@@ -32,13 +32,3 @@ def generate_summary(text, max_length=240):
         )
 
     return tokenizer.decode(summary_ids[0], skip_special_tokens=True)
-
-
-if __name__ == "__main__":
-    sample = """
-    Artificial intelligence is transforming industries worldwide.
-    Companies are investing heavily in AI research and development.
-    """
-
-    print("🔹 Abstractive Summary:\n")
-    print(generate_summary(sample))
