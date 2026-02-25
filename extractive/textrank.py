@@ -58,6 +58,9 @@ def textrank_summarize(text, top_n=5):
 
     return summary
 
+def summarize_text(text):
+    """Pipeline wrapper for TextRank.""" 
+    return textrank_summarize(text, top_n=5)
 
 # Simple CLI test
 if __name__ == "__main__":

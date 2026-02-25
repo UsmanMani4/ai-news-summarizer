@@ -12,6 +12,9 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+# HuggingFace cache (optional but nice)
+.cache/
+
 # OS files
 .DS_Store
 Thumbs.db
